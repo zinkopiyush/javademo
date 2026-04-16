@@ -5,8 +5,8 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    /* justify-content: center; */
 }
 
 head{
@@ -30,4 +30,20 @@ head{
     border: none;
     color: white;
     border-radius: 5px;
+}
+
+#logo{
+    margin: 10px;
+}
+
+#welcomeaboard{
+    margin-left: 10px;
+}
+
+.logosection {
+    display: flex;         /* This aligns items horizontally */
+    align-items: center;   /* This centers the logo and text vertically */
+    /* justify-content: center; /* This keeps them centered on the page */
+    /* gap: 20px;            /* Adds some breathing room between the logo and text */
+    /* margin-top: 20px;      /* Optional: moves it down from the very top */
 }

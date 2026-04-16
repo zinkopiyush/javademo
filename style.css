@@ -1,0 +1,33 @@
+*{
+    background-color:#8080ff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+head{
+    color: aqua;
+}
+
+#welcomeaboard{
+    text-align: center;
+    color: aliceblue;
+}
+
+#upperline{
+    text-align: center;
+    color: aliceblue;
+}
+
+#changecolor{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

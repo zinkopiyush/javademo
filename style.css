@@ -1,49 +1,19 @@
-*{
-    background-color:#8080ff;
-}
-
 body{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center;
-    /* justify-content: center; */
+    background-color: rgb(149, 213, 241);
 }
 
-head{
-    color: aqua;
-}
-
-#welcomeaboard{
+h1{
     text-align: center;
-    color: aliceblue;
-}
-
-#upperline{
-    text-align: center;
-    color: aliceblue;
-}
-
-#changecolor{
+    border: 3px solid black;
+    border-radius: 30px;
     padding: 10px 20px;
-    cursor: pointer;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    border-radius: 5px;
+    background-color: aquamarine;
+    display: table;   
+    margin: 30px auto; 
 }
-
-#logo{
-    margin: 10px;
+h1{
+    color:darkblue;
 }
-
-#welcomeaboard{
-    margin-left: 10px;
-}
-
-.logosection {
-    display: flex;         /* This aligns items horizontally */
-    align-items: center;   /* This centers the logo and text vertically */
-    /* justify-content: center; /* This keeps them centered on the page */
-    /* gap: 20px;            /* Adds some breathing room between the logo and text */
-    /* margin-top: 20px;      /* Optional: moves it down from the very top */
+#wrkprg{
+    text-align: center;
 }

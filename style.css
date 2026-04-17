@@ -2,18 +2,13 @@ body{
     background-color: rgb(149, 213, 241);
 }
 
-h1{
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 10px 20px;
-    background-color: aquamarine;
-    display: table;   
-    margin: 30px auto; 
+#putyourage{
+    font-family: sans-serif;
+    margin: 20px;
 }
-h1{
-    color:darkblue;
+#ageinput{
+    margin-left: 20px;
 }
-#wrkprg{
-    text-align: center;
+#output{
+    margin-left: 20px;
 }

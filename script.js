@@ -11,7 +11,3 @@ function agefunction(){
     }
     document.getElementById("output").innerHTML = adult;
 }
-
-    if(new Date().getHours() < 18){
-        document.getElementById("greetings").innerHTML = "GOOD MORNING";
-    }
